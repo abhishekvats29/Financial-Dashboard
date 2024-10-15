@@ -1,0 +1,95 @@
+.header {
+    
+    /* Centers horizontally */
+   align-items: flex-start; /* Aligns to the top */
+   height: 100vh; /* Full viewport height */
+   font-size: 20px;
+   font-weight: 200;
+   margin-top: 10px;
+ }
+ 
+ .search-bar {
+     display: flex;
+     position: absolute;
+     top: 20px; /* Adjust this value as needed */
+     right: 20px; /* Adjust this value as needed */
+     justify-content: center;
+     align-items: center;
+   }
+   
+   .search-bar button {
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-right: none; /* Remove the border from the right side */
+     border-radius: 4px 0 0 4px;
+     background-color: #007bff;
+     color: white;
+     cursor: pointer;
+   }
+   
+   .search-bar button:hover {
+     background-color: #0056b3;
+   }
+   
+   .search-bar input {
+     width: 100%;
+     max-width: 400px;
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 0 4px 4px 0;
+     outline: none;
+   }
+   
+   
+   .debit-cards-container {
+     display: flex;
+     justify-content: space-around;
+     gap: 10px;
+     flex-wrap: wrap; /* Ensure cards wrap on smaller screens */
+   }
+ 
+   .dashboard-container {
+     padding: 20px;
+     text-align: center;
+   }
+   
+   .cards-container {
+     display: flex;
+     justify-content: space-around;
+     gap: 20px;
+     flex-wrap: wrap; /* Ensure cards wrap on smaller screens */
+   }
+   
+ 
+   .dashboard {
+     
+     flex-direction: column;
+     padding: 20px;
+   }
+   
+   .cards-container {
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: 40px;
+   }
+   
+   /*chart css style*/
+   .chart {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     gap: 20px; /* Adjust the gap between containers as needed */
+     padding: 20px;
+   }
+   
+   .Bar-chart,
+   .Pie-chart,
+   .Line-chart {
+     flex: 1; /* Makes sure both containers take up equal space */
+     min-width: 0; /* Ensures content doesn’t overflow */
+   }
+   
+   h3 {
+     text-align: center;
+   }
+   

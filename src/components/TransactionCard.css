@@ -1,0 +1,26 @@
+.transaction-card {
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin: 10px;
+    box-shadow: 2px 2px 2px rgb(236, 234, 234);
+    
+  }
+  
+  .transaction-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .transaction-title,
+  .transaction-amount,
+  .transaction-date {
+    margin: 0;
+    font-size: 0.8em;
+    color: black;
+    font-size: large;
+    font-weight: 400;
+  }
+  

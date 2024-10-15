@@ -1,0 +1,32 @@
+.debit-card {
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    padding: 20px;
+    color: whitesmoke;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  
+  .card-holder{
+    margin: 0;
+    font-size: 0.7em;
+    padding-right: 150px;
+  }
+  .Balance {
+    font-size: large;
+    padding-right: 150px;
+    font-weight: 200;
+
+  }
+  

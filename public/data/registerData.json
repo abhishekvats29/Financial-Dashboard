@@ -1,0 +1,10 @@
+{
+    "registrationFields": [
+      "First Name",
+      "Last Name",
+      "Email",
+      "Password",
+      "Confirm Password"
+    ]
+  }
+  
